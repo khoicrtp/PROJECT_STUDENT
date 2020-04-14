@@ -1,6 +1,6 @@
 #include "Caro.h"
 
-void read_csv(char* in)
+void read_csv(const char* in)
 {
 	//char temp[100];
 	FILE* f1 = fopen(in, "r");

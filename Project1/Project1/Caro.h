@@ -11,12 +11,7 @@
 #pragma warning(disable : 4996)
 
 using namespace std;
-void read_csv(char* in);
+void read_csv(const char* in);
 
 
 #endif // !_CARO_H_
-
-
-
-
-#pragma once
