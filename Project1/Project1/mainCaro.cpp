@@ -2,14 +2,14 @@
 
 int main()
 {
-	//char list[30];
-	//FILE* in = fopen("input.csv", "r");
-
-	/*char x = (char)"input.csv";
-	char* px = &x;
-	read_csv(px);*/
-
-	read_csv("input.csv");
+	Course tempCourse;
+	createCourse(tempCourse);
+	cout << tempCourse.ID<<endl;
+	cout << tempCourse.courseTime.dayOfWeek<< endl;
+	tempCourse.startDate.printDay();
+	tempCourse.endDate.printDay();
+	cout << tempCourse.lecAccount << endl;
+	cout << tempCourse.classID << endl;
 
 
 	return 0;
